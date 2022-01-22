@@ -20,6 +20,7 @@ public class SingleTon {
 		System.out.println(getSingle());
 
 		System.out.println(getSingle());
+		System.out.println(getSingle());
 
 	}
 
