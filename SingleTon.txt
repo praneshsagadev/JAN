@@ -1,0 +1,26 @@
+public class SingleTon {
+
+	static SingleTon obj;
+
+	private SingleTon() {
+
+	}
+
+	public static SingleTon getSingle() {
+		if (obj == null) {
+			obj = new SingleTon();
+		}
+		return obj;
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println(getSingle());
+
+		System.out.println(getSingle());
+
+		System.out.println(getSingle());
+
+	}
+
+}
